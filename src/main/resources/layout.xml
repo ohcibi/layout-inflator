@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GridPane>
+
+    <HBox alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2">
+        <Text text="Hallo Welt" />
+    </HBox>
+
+    <Label text="Name" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Label text="Passwort" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+    <HBox alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.columnSpan="2">
+        <Button text="Login" />
+    </HBox>
+</GridPane>
